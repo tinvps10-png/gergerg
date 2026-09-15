@@ -909,7 +909,7 @@ elseif game.PlaceId == 3978370137 then
         while task.wait() do
             local ok, err = xpcall(function()
                 if not (hrp and humanoid) then return end
-                if Level < 117 then
+                if Level < 375 then
                     if not CurrentQuestData then return end
                     if CurrentQuestData.SetSpawnPos then
                         if SpawnPoint ~= CurrentQuestData.Spawnpoint then
